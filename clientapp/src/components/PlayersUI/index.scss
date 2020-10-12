@@ -1,0 +1,88 @@
+.container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width: 15%;
+    height: 50%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: 5px 3px 60px rgba(77, 70, 70, 0.16), 0 20px 25px rgba(64, 66, 64, 0.5);
+
+    .players-container{      
+        background-color: rgba(179, 155, 152, 0.5);
+        height: 90%;
+        width: 90%;
+        float: left;  
+
+        .btn-delete{
+            float: right;
+            background-color: transparent;
+            border: none;
+            margin: 0em;
+            color: rgb(78, 73, 73);
+        }
+
+        .btn-delete:hover{
+            background-color: #ebc2c280;
+            color: rgb(245, 234, 234);
+        }
+
+        h1{
+            padding-top: 15%;
+            height: 10%;
+            width: 100%;            
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 900;
+        }
+
+        .image-Item{    
+            display: flex;
+            justify-content: center;
+            align-items: center;                      
+            height: 40%;
+            width: 90%;
+            padding-left: 5%;
+
+            img{
+            height: 90%;
+            width: 90%;
+            }
+        }
+        
+        .btn-item{
+            width: 90%;
+            height: 15%;
+            color: black;
+            padding: 5%;
+            
+        
+            button{
+                margin:2%;
+                height: 80%;
+                width: 45%;
+                float: left;
+                border: 1px solid #8f7f7f ;
+                border-radius: 5px;
+                font-weight: 900;
+                text-decoration: none;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;                
+
+                .btn-plyersData-item{
+                    text-decoration: none;
+                    color: rgb(78, 73, 73);
+                }           
+            }
+    
+            button:hover{
+                background-color: #ebc2c280;
+                .btn-plyersData-item{
+                    text-decoration: none;
+                    color: rgb(245, 234, 234);
+                }    
+            }
+
+        }
+    }
+}

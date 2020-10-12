@@ -1,0 +1,25 @@
+.search-item{
+    align-items: center;
+    width:100%;
+
+    .search-item-input{        
+        float: left;
+        width: 30%;
+        height: 40%;
+        margin-left: 2%;
+        margin-top: 3%;
+        border-radius: 10px;
+    }
+    .search-item-btn{
+        float: left;
+        width: 20%;
+        margin-top: 3%;
+
+        button:hover{
+            background-color: #2e2b2b;
+            color: white;
+        };
+    }
+
+
+}

@@ -1,0 +1,20 @@
+.homepage{
+    height: 100%;
+    background-color: black;
+    background-image: url("./../../images/bgImage2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage-item{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    padding-top: 10%;
+    padding-left: 10%;
+   
+}

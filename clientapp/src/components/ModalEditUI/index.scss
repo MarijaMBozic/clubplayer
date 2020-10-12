@@ -1,0 +1,74 @@
+.imagePlayerDetails-item{
+    float: left;
+    height: 90%;
+    width: 40%; 
+
+    img{
+        height: 70%;
+        width: 70%;
+        border: 20px solid transparent;            
+        margin:3%;
+        box-shadow: 5px 3px 60px rgba(77, 70, 70, 0.16), 0 20px 25px rgba(64, 66, 64, 0.5);
+    }
+}
+
+.dataPlayerDetails-item{    
+    float: right;   
+    width: 60%;
+    margin: 0em;
+    background-color: rgba(228, 53, 53, 0.16);  
+
+    .item-playerdata-edit {        
+        height: 10%;
+        margin-left: 5%;
+        padding-top: 5%;   
+
+        label{
+            font-size: 20px;
+            width: 100%;
+        }
+
+        input{            
+            height: 70%;
+            width: 80%;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            padding-left: 10%;
+        }  
+    }
+
+    .btn-closeModalData-edit{
+    width: 100%;            
+    margin-right: 30%;
+    padding-top: 10%;    
+
+        .close-item-edit{
+            font-weight: 900;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 140%;
+            text-align: center;
+            float:right;
+            background-color: rgba(133, 129, 121, 0.5);
+            color: rgba(0,0,0,0.3);
+            border-radius: 5px;
+            margin-right: 10%;
+            height: 10%;
+            width: 30%;
+            border: none;
+        }
+
+        .close-item-edit:hover{
+            background-color: rgba(155, 122, 117, 0.5);
+            color: rgba(230, 221, 221, 0.3);
+        }
+        .edit-navLink{
+            text-decoration: none;
+            color: rgba(0,0,0,0.3);
+        }
+    }
+}
+
+    
+     
+    

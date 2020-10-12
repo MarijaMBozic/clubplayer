@@ -1,0 +1,27 @@
+.player-page{
+    padding: 1%;
+
+    .btn-openModalAdd{
+        background-color: rgba(179, 155, 152, 0.5);
+        box-shadow: 1px 3px 20px rgba(77, 70, 70, 0.16), 0 10px 15px rgba(64, 66, 64, 0.5);
+        float: right;
+        height: 50px;
+        width: 50px;
+        margin:0px;
+        padding: 0px;
+        border-radius: 50%;
+    }
+
+    .btn-openModalAdd:hover{
+        background-color:#ebc2c280;
+    }
+    .container-list{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        
+       
+        
+    }
+   
+}
